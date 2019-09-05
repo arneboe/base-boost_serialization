@@ -1,11 +1,10 @@
 find_package(Boost COMPONENTS serialization)
 
-set(deps_pkg_config base-types numeric)
+set(deps_pkg_config base-types)
 
 set(headers EigenTypes.hpp
             BoostTypes.hpp
             BaseTypes.hpp
-            BaseNumeric.hpp
             DynamicSizeSerialization.hpp
             ClassVersion.hpp)
 
